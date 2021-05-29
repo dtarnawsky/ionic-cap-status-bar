@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "status-bar",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

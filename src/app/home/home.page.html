@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title>
+      Example
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="dark">
+  <ion-header collapse="condense">
+    <ion-toolbar color="dark">
+      <ion-title size="large">Example</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Example Dark App with Light Status Bar</strong>    
+    <ion-button (click)="toggleDarkLight()">Toggle Dark/Light</ion-button>
+    <ion-button (click)="toggleShowHide()">Toggle Show/Hide</ion-button>
+  </div>
+</ion-content>
